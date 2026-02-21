@@ -94,7 +94,7 @@ export class Service {
   }
 
   // file upload service
-  ghh
+  
   async uploadFile(file) {
     try {
       return await this.bucket.createFile({
